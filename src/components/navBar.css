@@ -1,0 +1,96 @@
+
+.encabezado__logo {
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    margin-left: 25%;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    transform: rotate(-15deg);
+  }
+  
+  .encabezado__nombre {
+    color: #548aff;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Dela Gothic One", cursive;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    margin-left: 40px;
+    margin-top: 7px;
+    margin-bottom: 3px;
+    letter-spacing: 0.1em;
+    word-spacing: 0.3em;
+  }
+  
+  .encabezado__subnombre {
+    color: #548aff;
+    font-size: 27px;
+    text-transform: uppercase;
+    line-height: 0;
+    margin-left: 43px;
+    font-family: "Dela Gothic One", cursive;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    letter-spacing: 0.2em;
+    word-spacing: 0.25em;
+  }
+  
+  .menu__items--font {
+    background-color: #548aff;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-right: 15px;
+    width: 100%;
+    text-align: right;
+    border-width: 2px;
+    border-bottom: solid;
+    border-top: solid;
+    border-color: black;
+    position: sticky;
+    margin-bottom: 0px;
+  }
+  
+  .menu__items--font:hover {
+    color: #053191;
+  }
+  
+  ul.menu__items--font li {
+    position: relative;
+    margin-left: 3px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    transform: skew(-20deg, 0deg);
+    border-right: solid;
+    border-left: solid;
+    border-color: black;
+    line-height: 30px;
+    padding: 3px;
+    background-color: greenyellow;
+  }
+  
+  
+  ul.menu__items--font li a {
+    color: #548aff;
+    text-decoration: none;
+  }
+  
+  ul.menu__items--font li a:hover {
+    color: #053191;
+  }
+  
+  ul.menu__items--font li:hover {
+    background-color: greenyellow;
+    color: #053191;
+  }
+  
+  li {
+    position: relative;
+    display: inline-block;
+  }
+  
+  li li.item {
+    border-bottom: solid;
+    border-top: solid;
+    border-color: black;
+  }
+  
